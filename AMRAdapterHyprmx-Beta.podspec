@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'AMRAdapterHyprmx'
+  s.name             = 'AMRAdapterHyprmx-Beta'
   s.version          = '6.0.1.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.vendored_frameworks = 'AMRAdapterHyprmx/Libs/AMRAdapterHyprmx.xcframework'
-  s.dependency 'AMRSDK', '~> 1.5.6'
+  s.dependency 'AMRSDK-Beta', '~> 1.5.6'
   s.dependency 'HyprMX', '6.0.1'
 end

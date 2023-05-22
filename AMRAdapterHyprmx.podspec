@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterHyprmx'
-  s.version          = '6.0.3.0'
+  s.version          = '6.2.0.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
   }
   s.vendored_frameworks = 'AMRAdapterHyprmx/Libs/AMRAdapterHyprmx.xcframework'
   s.dependency 'AMRSDK', '~> 1.5.6'
-  s.dependency 'HyprMX', '6.0.3'
+  s.dependency 'HyprMX', '6.2.0'
 end
